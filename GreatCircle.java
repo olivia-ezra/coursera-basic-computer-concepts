@@ -1,7 +1,7 @@
 /* *****************************************************************************
  *  Name:              Olivia Ezra
  *  Coursera User ID:  f34dec8aae655957f9556c8434d09a45
- *  Last modified:     May 1, 2021
+ *  Last modified:     May 2, 2021
  **************************************************************************** */
 
 public class GreatCircle {
@@ -21,7 +21,7 @@ public class GreatCircle {
                         Math.cos(Math.toRadians(x2));
 
 
-        System.out.println(2 * EARTH_RADIUS * Math.asin(Math.sqrt(a)));
+        System.out.println(2 * EARTH_RADIUS * Math.asin(Math.sqrt(a)) + " kilometers");
     }
 }
 
